@@ -14,7 +14,7 @@
 // ?????
 
 //DEFINIZIONE/DICHIARAZIONE DI UNA FUNZIONE: il comportamneto,quello che deve fare la funzione
-function checkpalindrima(strng){
+function checkpalondrima(strng){
     // dichiaro la variabile che coterrà la parola invertita. Uso split, reverse e join per trovarla ed assegnarla
     // let splitted = string.split('');
     // let reversed = splitted.reverse('');
@@ -26,3 +26,9 @@ function checkpalindrima(strng){
 }
 
 // permetto all'utente di inserire la parola
+let word = prompt('inserisci la parola');
+
+// chiamata di funzione: eseguo la funzione
+checkpalindroma(word);
+
+
